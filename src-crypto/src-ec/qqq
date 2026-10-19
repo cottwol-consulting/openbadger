@@ -1,0 +1,12 @@
+  0  89: SEQUENCE {
+  2  19:   SEQUENCE {
+  4   7:     OBJECT IDENTIFIER ecPublicKey (1 2 840 10045 2 1)
+ 13   8:     OBJECT IDENTIFIER prime256v1 (1 2 840 10045 3 1 7)
+       :     }
+ 23  66:   BIT STRING
+       :     04 B3 69 45 CC FE 5C FF A6 29 90 39 A9 08 54 D3
+       :     B6 8D 28 03 56 C8 A0 4B 4F 6E 80 40 3D 71 15 53
+       :     DB 7E 28 2F 78 0B 7B AB 55 FE 90 99 1B B5 60 AF
+       :     30 CE F2 E9 3B 10 D1 29 15 9A B9 B1 BF 7F 9A A6
+       :     AF
+       :   }

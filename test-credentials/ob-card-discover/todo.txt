@@ -1,0 +1,21 @@
+FCI is coming back from leaf and farpointe
+parse it
+
+parse select any response
+
+change to generalize.  I do the front and back of the json.
+call plug-ins to do the rest.  they return a string I write or
+they append to the file.
+
+generic "includes:..." json token.  tacky comma-sep for now
+
+split to stand-alone repo.  make sure it cleanly uses openbadger-lite
+and the interface points are clearly documented.
+
+plug in would have knowledge of what to do with the response.  framework
+just knows it did not get an error response or abnormal return.
+
+check with 
+https://globalplatform.org/wp-content/uploads/2018/06/GPC_2.3_C_ContactlessServices_v1.2.pdf
+specifically 80 F2 ... section 3.11.3.2
+

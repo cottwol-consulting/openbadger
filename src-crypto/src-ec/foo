@@ -1,0 +1,8 @@
+
+int wc_ecc_import_private_key(
+    const byte * priv,
+    word32 privSz,
+    const byte * pub,
+    word32 pubSz,
+    ecc_key * key
+)

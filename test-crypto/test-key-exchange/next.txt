@@ -1,0 +1,8 @@
+settings name
+dash or underscore
+defaults
+
+generate rsa keypair
+encrypto with private
+send puibkey and ciphertext
+

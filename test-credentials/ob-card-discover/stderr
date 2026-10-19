@@ -1,0 +1,72 @@
+obtest-util - smartcard contents examiner 3.32
+---Test GET-UID started.
+  Test results for test GET-UID: 043D551A E86B8090-00
+PCSC UID Response: 043D551A E86B80
+---Test GET-UID completed.
+---Test GET-ATR started.
+  GET-ATR 7816 status was 001C (7816 bad response)
+  Test results for test GET-ATR: 1C
+---Test GET-ATR completed.
+---Test GET-GP-CARD-RECOGNITION started.
+  GET-GP-CARD-RECOGNITION 7816 status was 001C (7816 bad response)
+  Test results for test GET-GP-CARD-RECOGNITION: 1C
+---Test GET-GP-CARD-RECOGNITION completed.
+---Test GET-GP-CPLC started.
+  GET-GP-CPLC 7816 status was 001C (7816 bad response)
+  Test results for test GET-GP-CPLC: 1C
+---Test GET-GP-CPLC completed.
+---Test GET-PICC-DATA started.
+  GET-PICC-DATA 7816 status was 6B00 Wrong parameters P1/P2
+  Test results for test GET-PICC-DATA: 6B00
+---Test GET-PICC-DATA completed.
+---Test SELECT-ANY started.
+  SELECT-ANY 7816 status was 6A87 (7816 bad response)
+  Test results for test SELECT-ANY: 6A87
+---Test SELECT-ANY completed.
+---Test GET-EF-INFO started.
+  GET-EF-INFO 7816 status was 6D00 (7816 bad response)
+  Test results for test GET-EF-INFO: 6D00
+---Test GET-EF-INFO completed.
+GET_EF_INFO response length is 0.
+---Test AN10957-SELECT started.
+  Test results for test AN10957-SELECT: 6F228520 DB032845-12DC9F20 51425CD4-E2EFB5BF A50B7A5D-C7F7067F F6511992
+D0AAA9B7 9000
+NXP AN-10957 Select: 6F228520 DB032845-12DC9F20 51425CD4-E2EFB5BF A50B7A5D-C7F7067F F6511992
+D0AAA9B7 
+---Test AN10957-SELECT completed.
+AN10957-SELECT response length is 36.
+---Test PIV-SELECT started.
+  Test results for test PIV-SELECT: 6F228520 5010A93C-98069AE6 3CD1546B-67596597 20D85AB5-0B217CB5 00773CB1
+236FFAEB 9000
+PIV Select: 6F228520 5010A93C-98069AE6 3CD1546B-67596597 20D85AB5-0B217CB5 00773CB1
+236FFAEB 
+---Test PIV-SELECT completed.
+PIV-SELECT response length is 36.
+---Test PKOC-SELECT started.
+  Test results for test PKOC-SELECT: 6F228520 65FBB1E4-0C773FB1 B969FECD-E1466821 04994F40-287F670C C5EE30FD
+08BA9704 9000
+PKOC Select: 6F228520 65FBB1E4-0C773FB1 B969FECD-E1466821 04994F40-287F670C C5EE30FD
+08BA9704 
+---Test PKOC-SELECT completed.
+PKOC-SELECT response length is 36.
+---Test LEAF-UNIVERSAL-SELECT started.
+  Test results for test LEAF-UNIVERSAL-SELECT: 6F228520 308F4C2B-4C808912 E3EEEC7E-B3ED0DF0 45909615-092FFE5C 3D2B83E1
+D6604789 9000
+Wavelynx LEAF Universal Select: 6F228520 308F4C2B-4C808912 E3EEEC7E-B3ED0DF0 45909615-092FFE5C 3D2B83E1
+D6604789 
+---Test LEAF-UNIVERSAL-SELECT completed.
+LEAF-UNIVERSAL-SELECT response length is 36.
+---Test DESFIRE-GET-CHALLENGE started.
+  DESFIRE-GET-CHALLENGE 7816 status was 910B (7816 bad response)
+  Test results for test DESFIRE-GET-CHALLENGE: 910B
+---Test DESFIRE-GET-CHALLENGE completed.
+---Test DESFIRE-GET-VERSION started.
+  DESFIRE-GET-VERSION 7816 status was 910B (7816 bad response)
+  Test results for test DESFIRE-GET-VERSION: 910B
+---Test DESFIRE-GET-VERSION completed.
+DESfire get version response length 0
+---Test SCARD-STATUS started.
+Reader state 34
+3B818001 8080
+---Test SCARD-STATUS completed.
+testing completed.  8. 7816 error responses 1. 7816 errors returned.

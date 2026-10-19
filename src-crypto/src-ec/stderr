@@ -1,0 +1,5 @@
+ob-ec-utils.c:62:25: error: variable 'internal' set but not used [-Werror,-Wunused-but-set-variable]
+   62 |   OB_CRYPTO_CONTEXT_EC *internal;
+      |                         ^
+1 error generated.
+make: *** [Makefile:26: ob-ec-utils.o] Error 1

@@ -1,0 +1,14 @@
+.:
+total 80
+-rw-rw-r-- 1 rodney rodney  1379 Jun 27 01:16 Makefile
+drwxrwxr-x 2 rodney rodney  4096 Jun 27 01:18 library
+-rw-rw-r-- 1 rodney rodney 16779 Jun 27 01:08 ob-card-discover.c
+-rw-rw-r-- 1 rodney rodney 34104 Jun 27 01:16 ob-card-discover.o
+-rw-rw-r-- 1 rodney rodney  1441 Jun 27 01:09 ob-discover-util.c
+-rw-rw-r-- 1 rodney rodney  9504 Jun 27 01:16 ob-discover-util.o
+-rw-rw-r-- 1 rodney rodney     0 Jun 27 01:18 z5
+
+./library:
+total 52
+-rw-rw-r-- 1 rodney rodney 16712 Jun 27 01:16 ob-smartcard-utils.o
+-rw-rw-r-- 1 rodney rodney 32232 Jun 27 01:14 ob-utils.o

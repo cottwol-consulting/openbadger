@@ -1,0 +1,4 @@
+#!/bin/bash
+mkdir -p /opt/openbadger/log
+echo >>/opt/openbadger/log/install.log preinst executed.
+

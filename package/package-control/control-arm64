@@ -1,0 +1,10 @@
+Package: openbadger
+Version: 4.00
+Section: custom
+Priority: optional
+Architecture: arm64
+Essential: no
+Installed-Size: 1024
+Maintainer: git@cottwol.com
+Description: credential management tools
+
